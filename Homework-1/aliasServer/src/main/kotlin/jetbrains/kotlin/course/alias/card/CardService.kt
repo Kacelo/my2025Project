@@ -10,7 +10,7 @@ class CardService {
 //adding property identifier
     private val identifierFactory = IdentifierFactory()
 // adding cards property
-    val cards: List<Card> = generateCards()
+    private val cards: List<Card> = generateCards()
 //    adding a companion object
     companion object {
        private const val WORDS_IN_CARD =4
